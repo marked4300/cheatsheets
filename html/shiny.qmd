@@ -543,7 +543,7 @@ Use the **bslib** package to add existing themes to your Shiny app ui, or make y
 library(bslib)
 ui <- fluidPage(
   theme = bs_theme(
-    boothswatch = "darkly",
+    bootswatch = "darkly",
     ...
   )
 )
